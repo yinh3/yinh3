@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>謝乙安 | 個人網頁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="profile-section">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="dots">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="stars">★</div>
+                </div>
+                <div class="profile-content">
+                    <img src="photo.jpg" alt="謝乙安" class="avatar">
+                    <div class="info">
+                        <h1 id="name">載入中...</h1>
+                        <p class="tagline">跨領域自主學習者</p>
+                        <div id="bio-list">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="chat-section">
+            <div class="chat-window" id="chat-window">
+                <div class="message bot">
+                    你好！我是乙安的 AI 助手，想了解關於她的藝術創作還是運算思維呢？
+                </div>
+            </div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="輸入訊息...">
+                <button id="send-btn">
+                    <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path></svg>
+                </button>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
